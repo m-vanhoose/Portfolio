@@ -22,6 +22,19 @@ body {
   flex-wrap: wrap; */
 }
 
+.main-image{
+    width:20%;
+    margin: 20px;
+}
+
+.bio-head{
+    
+}
+
+.bio {
+    font-size: 30px;
+}
+
 .header h1 {
     font-size:50px ;
     margin-top: 30px;
@@ -61,12 +74,6 @@ body {
     border-radius: 10px;
     margin: 5px;
     
-}
-
-.main-image {
-    background-image: url("../images/vaporwave\ 2.jpg") ;
-    background-size: cover;
-    background-position: center;
 }
 
 /* #about-me {
@@ -113,7 +120,17 @@ body {
     padding: 10px;
 }
 
-.grid-item {
+.grid-container-2 {
+display: grid;
+grid-template-columns:auto auto auto ;
+}
+
+/* .grid-item {
     padding: 20px;
+
+} */
+
+footer section ul{
+    list-style: none;
 
 }
