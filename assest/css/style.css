@@ -18,6 +18,8 @@ body {
   color: var(--offwhite); 
   background-color: var(--darkblue); 
   margin: -10px;
+  /* display:flex;
+  flex-wrap: wrap; */
 }
 
 .header h1 {
@@ -50,7 +52,7 @@ body {
     margin-right: 10px;
 }
 .header nav ul li {
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
     background-color: var(--red);
     border-color: var(--yellow);
@@ -58,4 +60,60 @@ body {
     border-width: 3px;
     border-radius: 10px;
     margin: 5px;
+    
+}
+
+.main-image {
+    background-image: url("../images/vaporwave\ 2.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+/* #about-me {
+    clear: both;
+    float: left;
+    width: 15%;
+    font-size: 40px;
+    margin-left: -20px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-left:70px;
+    padding-right: 129px;
+    padding-bottom: 200px;
+    color: var(--offwhite);
+    background-color: var(--blue);
+    border-color: var(--yellow);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.about-me {
+    float: right;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 28px;
+    color: var(--offwhite);
+    background-color: var(--darkblue);
+    width: 70%;
+} */
+
+@media screen and (max-width: 992px) {
+    body{
+    background-color: red;
+}
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+
 }
